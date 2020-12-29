@@ -1,0 +1,13 @@
+*{
+background-color: bisque;
+margin: 0;
+padding: 0;
+}
+
+.keys{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    font-size: 800%;
+    
+}
