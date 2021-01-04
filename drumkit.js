@@ -1,4 +1,10 @@
 //testing keyboardevent  for now
 window.addEventListener('keydown', (e) => {
-    console.log(e);// should log the keyevent object
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    console.log(audio); // should log the keyevent object
+    if (!audio) return; //stop the fn
+
+    audio.play();
 });
+
+
