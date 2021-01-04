@@ -1,13 +1,35 @@
-*{
-background-color: bisque;
-margin: 0;
-padding: 0;
+* {
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
 }
 
-.keys{
-    display: flex;
-    justify-content: center;
-    margin-top: 25%;
-    font-size: 800%;
-    
+kbd{
+    display: block;
 }
+
+.keys {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.key {
+  margin-top: 25%;
+  font-size: 800%;
+  border: 4px solid black;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+}
+.sound{
+    font-size: 40px;
+    letter-spacing: 1px;
+    
+
+}
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
